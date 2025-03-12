@@ -2,7 +2,8 @@ import OpenAI from 'openai';
 import { AIResponse } from '../types/ai.response.d';
 
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey:
+    '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',
 });
 
 /**
