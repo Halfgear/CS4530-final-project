@@ -30,7 +30,6 @@ const aiController = () => {
 
       res.status(200).json({ content: response.content });
     } catch (error) {
-      console.error('Error in AI controller:', error);
       res.status(500).json({ error: 'Internal server error' });
     }
   };

@@ -1,3 +1,7 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 let logs: string[] = [];
 let logSpy: jest.SpyInstance;
 
